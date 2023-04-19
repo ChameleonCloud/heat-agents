@@ -28,4 +28,4 @@ if [[ ${clear_old_files} -eq 1 ]]; then
     done
 fi
 
-pip install python-heatclient python-zaqarclient python-keystoneclient
+python3 -m pip install python-heatclient python-zaqarclient python-keystoneclient
